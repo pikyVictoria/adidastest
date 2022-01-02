@@ -28,6 +28,10 @@ mvn verify -Denv=prod -Dit.test=victoria.adidas.runners.pet.createPet.CreatePetA
   
 More information on how to run automated tests can be found [here](https://github.com/veepee-oss/gingerspec/wiki/Running-your-tests)
 
+You could see all the features developed in Gherkin in the following path:
+```
+/src/test/resources/features/pet/
+```
 
 
 * 1.0.0
