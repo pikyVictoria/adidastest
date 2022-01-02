@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="4.322">
+    <testcase classname="Testing the Post, Put and Delete Pets endpoint" name="Create, update and delete new pet with valid data" time="3.952">
+        <system-out>
+            <![CDATA[Given I securely send requests to '${envProperties:petstore.url}'...........passed
+When I send a 'POST' request to '/pet' based on 'schemas/createPet.json' as 'json' with:.passed
+Then the service response status must be '200'..............................passed
+Then I save element '$' in environment variable 'response'..................passed
+And 'response' matches the following cases:.................................passed
+And I save element '$.id' in environment variable 'ID_NEW_PET'..............passed
+When I send a 'PUT' request to '/pet' based on 'schemas/updatePet.json' as 'json' with:.passed
+Then the service response status must be '200'..............................passed
+Then I save element '$' in environment variable 'response'..................passed
+And 'response' matches the following cases:.................................passed
+When I send a 'DELETE' request to '/pet/${ID_NEW_PET}'......................passed
+Then the service response status must be '200'..............................passed
+Then I save element '$' in environment variable 'response'..................passed
+And 'response' matches the following cases:.................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="0" passed="1" skipped="0" total="1">
+    <suite duration-ms="4322" name="io.cucumber.core.plugin.TestNGFormatter">
+        <test duration-ms="4322" name="io.cucumber.core.plugin.TestNGFormatter">
+            <class name="Testing the Post, Put and Delete Pets endpoint">
+                <test-method duration-ms="3889" finished-at="2022-01-02T20:00:19.894708Z" name="Create, update and delete new pet with valid data" started-at="2022-01-02T20:00:15.942230Z" status="PASS"/>
+            </class>
+        </test>
+    </suite>
+</testng-results>

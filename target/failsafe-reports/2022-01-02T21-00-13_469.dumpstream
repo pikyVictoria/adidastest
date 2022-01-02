@@ -1,0 +1,15 @@
+# Created at 2022-01-02T21:00:14.868
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2022-01-02T21:00:14.876
+WARNING: Illegal reflective access by com.privalia.qa.utils.BaseGTest (file:/home/vlopez/.m2/repository/com/github/privaliatech/gingerspec/2.2.7/gingerspec-2.2.7.jar) to method java.lang.Class.annotationData()
+
+# Created at 2022-01-02T21:00:14.876
+WARNING: Please consider reporting this to the maintainers of com.privalia.qa.utils.BaseGTest
+
+# Created at 2022-01-02T21:00:14.876
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2022-01-02T21:00:14.876
+WARNING: All illegal access operations will be denied in a future release
+
