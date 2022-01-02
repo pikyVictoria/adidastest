@@ -30,14 +30,6 @@ More information on how to run automated tests can be found [here](https://githu
 
 
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-
-
 * 1.0.0
     * Exercise 1 - REST API Automation finished
     
